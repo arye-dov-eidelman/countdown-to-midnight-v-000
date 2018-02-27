@@ -2,7 +2,7 @@
 
 def countdown(seconds)
   seconds.times do
-    "#{seconds} SECOND#{'S' if seconds > 1}!"
+    "#{seconds} SECOND(S)!"
     seconds -= 1
   end
   "HAPPY NEW YEAR!"
